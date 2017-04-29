@@ -1,0 +1,66 @@
+#panel {
+width: 400px; 
+margin: 0 auto; 
+padding-top: 30;
+background: #fff;
+border: 1px solid silver;
+font: 16px calibri;
+letter-spacing: -1px;
+-webkit-box-shadow: 0 0 2px silver; 
+-moz-box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver;
+position: relative; left: 0px; top: 100px
+}
+form {
+margin: 0;
+}
+
+#logo{
+position: relative; left: 160px; top: 0px
+
+}
+
+
+body {
+background: #c8c8ff;
+}
+
+label {
+display: block;
+width: 260px;
+padding: 10px 20px;
+color: #696969;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+}
+
+#username, #password {
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 5px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+#username:focus, #password:focus {
+outline: 5px solid #e5f2f8;
+}
+
+#lower {
+background: #ecf2f5;
+width: 360px;
+padding: 5px 20px;
+margin-top: 20px;
+}
+
+input[type="submit"] {
+width: 70px;
+padding: 5px 13px;
+border: 1px solid #005f85;
+color: white;
+text-shadow: 0 0 1px black;
+background: #98c9dc;
+position: relative;
+left: 150px;
+}
