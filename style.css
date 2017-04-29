@@ -55,12 +55,12 @@ margin-top: 20px;
 }
 
 input[type="submit"] {
-width: 70px;
+width: 90px;
 padding: 5px 13px;
 border: 1px solid #005f85;
 color: white;
 text-shadow: 0 0 1px black;
 background: #98c9dc;
 position: relative;
-left: 150px;
+left: 140px;
 }
