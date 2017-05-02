@@ -209,9 +209,22 @@ left: 140px;
 
 .dodajSp{
 	
-	margin-top: 200px;
+	margin-top: 20px;
 	margin-left: 0px;
 	
+}
+
+.dodajKp{
+	
+	margin-top: 20px;
+	margin-left: 500px;
+	
+}
+
+.drugaKolumna{
+	
+	margin-top: -480px;
+	margin-left: 500px;
 }
 
 .stopka{
