@@ -1,37 +1,39 @@
-#panel {
+.panel {
 width: 400px; 
+min-width: 200px;
 margin: 0 auto; 
 padding-top: 30;
 background: #fff;
 border: 1px solid silver;
 font: 16px calibri;
 letter-spacing: -1px;
--webkit-box-shadow: 0 0 2px silver; 
--moz-box-shadow: 0 0 2px silver; 
-box-shadow: 0 0 2px silver;
 position: relative; left: 0px; top: 100px
 }
 form {
 margin: 0;
 }
 
-#logo{
+.logo{
 position: relative; left: 160px; top: 0px
 
 }
 
 
 body {
-background: #c8c8ff;
+	width: 90%;
+	min-width: 600px;
+	margin: auto auto;
+	background: #c8c8ff;
 }
 
 label {
 display: block;
 width: 260px;
 padding: 10px 20px;
-color: #696969;
+color: #000;
 font-size: 16px;
-text-shadow: 0 0 1px silver;
+
+
 }
 
 #username, #password {
@@ -47,7 +49,7 @@ font-size: 22px;
 outline: 5px solid #e5f2f8;
 }
 
-#lower {
+.lower {
 background: #ecf2f5;
 width: 360px;
 padding: 5px 20px;
@@ -63,4 +65,161 @@ text-shadow: 0 0 1px black;
 background: #98c9dc;
 position: relative;
 left: 140px;
+}
+
+<!-kierownik zlecenia->
+
+.kontener{
+	width: 90%;
+	min-width: 600px;
+	margin: auto auto;
+	font-family: "Tahoma", "Sans-serif";
+	font-size: 12pt;
+	background: #fff;
+			
+}
+
+.naglowek{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	font-family: "Calibri", "Sans-serif";
+	
+}
+
+.naglowek h1{
+	font-size: 300%;
+	margin: 0;
+	padding-top: 40px;
+	
+}
+
+.srodek{
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	
+}
+
+.menu{
+	width: 150px;
+	float: left;
+	background: #9999FF;
+	margin-bottom: 10px;
+
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	list-style: none;
+	padding: 5;
+	font-size: 120%;
+}
+
+.menu a{
+	display: block;
+	text-decoration: none;
+	background: #6666FF;
+	text-align: center;
+	color: #000;
+	margin: 0 0 5px 0;
+	padding: 4px 0px;
+	font-size: 12pt;
+	
+	transition: all 0.5s ease-in out;
+	-webkit-transition: all 0.5s ease-in out;
+}
+
+.menu a:hover{
+	color: #fff;
+	background: #000099;
+	
+
+}
+
+.wyloguj [type="button"]{
+	
+	width: 100%;
+	margin-top: 20;
+	padding: 10px;
+	
+}
+
+.tresc{
+	
+	margin-left: 160px;
+	min-height: 100px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: justify;
+}
+
+.tabela_zlecenia{
+	
+	border-collapse: collapse;
+	width: 650px;
+	margin-top: -60px;
+	margin-left: 300px;
+}
+
+.tabela_zlecenia td{
+	
+	
+	width: auto;
+	
+}
+
+.aktualizujZ{
+
+	margin-top: 20px;
+	margin-left: 300px;
+
+}
+
+.aktualizujZK{
+
+	margin-top: 20px;
+	margin-left: 0px;
+
+}
+
+.zatwierdzK{
+
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+
+.labelZakoncz{
+	
+	margin-left: -20px;
+}
+
+.tabela_zrealizowane{
+	
+	border-collapse: collapse;
+	width: 650px;
+	margin-top: -60px;
+	margin-left: 300px;
+}
+
+.dodajSp{
+	
+	margin-top: 200px;
+	margin-left: 0px;
+	
+}
+
+.stopka{
+	clear: both;
+	background: #9999FF;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding-top:3px;
+	padding-bottom:3px;
 }
