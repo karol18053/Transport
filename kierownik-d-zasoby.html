@@ -18,13 +18,13 @@
 		<div class="srodek">
 			<div class="menu">
 				<ul>
-					<li><a href="">Zlecenia</a></li>
-					<li><a href="">Dostêpne zasoby</a></li>
-					<li><a href="">Modyfikacja kursów</a></li>
-					<li><a href="">Modyfikacja zasobów</a></li>
-					<li><a href="">Aktualne kursy</a></li>
-					<li><a href="">Zakoñczenie kursu</a></li>
-					<div class="przycisk">
+					<li><a href="kierownik-zlecenia.html">Zlecenia</a></li>
+					<li><a href="kierownik-d-zasoby.html">Dostêpne zasoby</a></li>
+					<li><a href="kierownik-m-kursow.html">Modyfikacja kursów</a></li>
+					<li><a href="kierownik-m-zasobow.html">Modyfikacja zasobów</a></li>
+					<li><a href="kierownik-a-kursy.html">Aktualne kursy</a></li>
+					<li><a href="kierownik-z-kursu.html">Zakoñczenie kursu</a></li>
+					<div class="wyloguj">
 					<li><input type="button" id="wyloguj" value="Wyloguj"></li>
 					</div>
 				</ul>
@@ -32,7 +32,140 @@
 			</div>
 			<div class="tresc">
 			Jesteœ zalogowany jako kierownik w celu nawigacji po okncje wybierze jedn¹ z zak³adek po lewej stronie
+			<br><br>
+			<b>Dostêpne zasoby:</b>
 			</div>
+			
+			<div class="tabela_samochody">
+			Samochody
+			
+			<table border>
+					<tr>
+						<td>ID</td> <td>Marka</td> <td>Model</td> <td>£adownoœæ[t]</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+				</table>
+				
+				<div class="aktualizujZK">
+				<input type="button" id="aktualizujS" value="Aktualizuj">
+				</div>
+				
+				<br><br>
+				Wszystkie samochody
+			
+			<table border>
+					<tr>
+						<td>ID</td> <td>Marka</td> <td>Model</td> <td>£adownoœæ[t]</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> 
+					</tr>
+				</table>
+				</div>
+				
+				<div class="tabela_kierowcy">
+					Kierowcy
+			
+			<table border>
+					<tr>
+						<td>ID</td> <td>Imiê</td> <td>Nazwisko</td> <td>Telefon</td> <td>Pesel</td> <td>ID_Adreu</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+				</table>
+				
+				<div class="aktualizujKier">
+				<input type="button" id="aktualizujKier" value="Aktualizuj">
+				</div>
+				
+				<br><br>
+					Wszyscy kierowcy
+			
+			<table border>
+					<tr>
+						<td>ID</td> <td>Imiê</td> <td>Nazwisko</td> <td>Telefon</td> <td>Pesel</td> <td>ID_Adreu</td> 
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+					<tr>
+						<td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td> <td>...</td>
+					</tr>
+				</table>
+				</div>
+			
 		</div>
 		<div class="stopka">&copy;2017 Karol Cie¿</div>
 	</div>

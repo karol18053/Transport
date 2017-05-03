@@ -158,18 +158,24 @@ left: 140px;
 	text-align: justify;
 }
 
+
 .tabela_zlecenia{
 	
-	border-collapse: collapse;
-	width: 650px;
 	margin-top: -60px;
 	margin-left: 300px;
 }
 
-.tabela_zlecenia td{
+.tabela_samochody{
+	
+	margin-top: -60px;
+	margin-left: 200px;
+}
+
+.tabela_kierowcy{
 	
 	
-	width: auto;
+	margin-top: -500px;
+	margin-left: 600px;
 	
 }
 
@@ -181,6 +187,13 @@ left: 140px;
 }
 
 .aktualizujZK{
+
+	margin-top: 20px;
+	margin-left: 0px;
+
+}
+
+.aktualizujKier{
 
 	margin-top: 20px;
 	margin-left: 0px;
@@ -201,8 +214,7 @@ left: 140px;
 
 .tabela_zrealizowane{
 	
-	border-collapse: collapse;
-	width: 650px;
+
 	margin-top: -60px;
 	margin-left: 300px;
 }
