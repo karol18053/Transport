@@ -249,3 +249,20 @@ left: 140px;
 	padding-top:3px;
 	padding-bottom:3px;
 }
+
+.tabela_kursow{
+	border-collapse: collapse;
+	width: 650px;
+	margin-top: -60px;
+	margin-left: 300px;
+}
+
+	
+.tresc2{
+	font-size: 150%;
+	margin-left: 160px;
+	min-height: 100px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: justify;
+}
